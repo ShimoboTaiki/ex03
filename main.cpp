@@ -10,5 +10,6 @@ int main(){
     std::cout<<"Die "<<i<<": "<<x<<'\n';
   }
   std::cout<<"Total value: "<<sum<<'\n';
+  std::cout<<(sum>7?"You won\n":"You lost\n");
   return 0;
 }

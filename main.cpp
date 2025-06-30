@@ -1,6 +1,12 @@
 #include<iostream>
 #include<random>
 int main(){
+  std::cout<<"What is your name?\n>";
+  std::cout.flush();
+  std::string name;
+  std::cin>>name;
+  std::cout<<"Hello, "<<name<<'\n';
+  
   std::mt19937 mt(std::random_device{}());
   std::cout<<"Rolling dice...\n";
   int sum=0;
